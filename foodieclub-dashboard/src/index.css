@@ -1,4 +1,10 @@
 @import "tailwindcss";
 
+/* This tells Tailwind to find your classes without needing a config file */
 @source "../index.html";
 @source "./**/*.{js,jsx,ts,tsx}";
+
+/* Standard CSS fallbacks to ensure the page isn't white if Tailwind fails */
+:root {
+  background-color: #f8fafc;
+}
