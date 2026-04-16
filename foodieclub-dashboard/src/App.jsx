@@ -89,6 +89,7 @@ const FoodieClubDashboard = () => {
     then this should translate into actual usage.
   </p>
 </div>
+
       </div>
     </div>
   );
